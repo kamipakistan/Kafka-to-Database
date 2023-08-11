@@ -10,7 +10,7 @@ git clone https://github.com/confluentinc/demo-scene.git
 cd demo-scene/kafka-to-database
 ----
 
-1. Bring the Docker Compose up
+1. This command builds and runs the Docker images and starts the containers
 +
 [source,bash]
 ----
