@@ -253,6 +253,12 @@ docker exec -i kafkacat kafkacat \
 EOF
 ----
 
+----
+docker exec -i kafkacat kafkacat \
+        -b broker:29092 -C \
+        -t some_json_data
+----
+
 8. Stream the JSON data that has a schema to DB: 
 +
 [source,bash]
